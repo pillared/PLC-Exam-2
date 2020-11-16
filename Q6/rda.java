@@ -1,3 +1,10 @@
+/*
+WHILE STATMENT
+
+EBNF:
+<whilestmt> -> “while” “(” <boolstmt> “)”  “{”   <block>   “}”
+<block> -> {<stmt>}
+*/
 public static boolean whilestmt(String s){
     x = getNextToken(s)
     if(x == whilest){
@@ -42,6 +49,16 @@ public static boolean whilestmt(String s){
     }
 }
 
+
+/*
+IF STATEMENT 
+
+EBNF:
+<ifstmt> -> “if” “(”  <boolstmt>   “)”  [ <stmt> | “{” <block> “}” ]
+{ [ “else”  “if” “(”  <boolstmt>   “)”   [ <stmt> | “{” <block> “}” ] ] }
+( [ “else” [ <stmt> | “{” <block> “}” ] ) 
+<block> -> {<stmt>}
+*/
 //assume getNextToken pops string stack based on spaces.
 public static boolean ifstmt(String s){
     x = getNextToken(s);
@@ -76,6 +93,13 @@ public static boolean ifstmt(String s){
     }else{ return false; }
 }
 
+
+/*
+ASSIGNMENT STATEMENT EBNF:
+
+EBNF:
+<assignstmt> -> <var> “=” [ <var>{ “[” <mem> “]” } | <const> | <func> | “null”]
+*/
 public static boolean check_for_else_or_elseif_stmt(String s){
     x = getNextToken(s);
     if(x == else_stmt){
@@ -99,6 +123,17 @@ public static boolean check_for_else_or_elseif_stmt(String s){
     }else{ return false;}
 }
 
+
+/*
+MATH STATEMENT EBNF:
+
+EBNF:
+<stmt> ->  <var> <op> [ <stmt> | <var> ] 
+<op> -> [ ‘+’ | ‘-’ | ‘*’ |  ‘/’ | ‘%’ ]
+<var> -> [ <letter> | <num> ] 
+<letter> -> [ A-Z | a-z ] { <let> }{ <num> } 
+<num> -> [ 0-9 ] { <num> }
+*/
 public static boolean assignstmt(String s){
     x = getNextToken(s);
     if(x == var){
