@@ -1,5 +1,23 @@
 # PLC-Exam-2
-* Exam 2 has 4 coding questions
+* Exam 2 has 8 questions, 4 of them coding.
+
+**BOTH-PDF** Includes the following:
+
+	* Table of Contents
+	* Q1-Q8, code and explanations
+	* References
+
+**CODE-ONLY-PDF** Includes the following:
+
+	* Table of Contents
+	* Q1,Q2,Q6,and Q8 code
+
+**EXPLANATIONS-ONLY-PDF** Includes the following:
+
+	* Table of Contents
+	* Q1-Q8 explanations
+	* References
+  
 * Q1: Takes a textfile q1.txt and processes that file for the following lexemes:
     * Lexemes:
       * Perl style identifiers 
@@ -31,8 +49,3 @@
 * Q6: A recursive decent algorithm for a java while statement, if statement , an logical/mathematical expression, and an assignment statement , where statement may be an empty function. Includes EBNF rule for each.
 
 * Q8: A Perl program that implements static and dynamic scoping.
-
-* PDF: Includes the following:
-  * Table of Contents
-  * Q1-Q8, code and explanations
-  * References
