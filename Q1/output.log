@@ -1,0 +1,1430 @@
+Script started on Sun Nov 15 20:38:56 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ python3 driver.py 
+['\'\\"nai\\\\ow\\"\'', '\'\\"0x82n3\\"\'', '\'\\"13.4e12\\"\'', '\'"nai\\\\ow"\'', '\'\\"0x82n3\\"\'', '\'\\"13.4e12\\"\'', '\'"@fuckplc"\'', '"\\\'2\\\'"', '"\\\'!\\\'"', '"\\"&\\""', '"\\"\\n\\""', '"\\\'\\?\\\'"', '"\\\'\\\\\\\'"', '"\\\'\\f\\\'"', '"\\\'\\XN\\\'"', '"\\\'\\\'"', '"\\\'n\\\'"', '"\\"15.75\\""', '"\\"1.575E1\\""', '"\\"1575e-2\\""', '"\\"-2.5e-3\\""', '"\\"25E-4\\""', '"\\"10.0L\\""', '"\\"10.0F\\""', '"\\".0075e2\\""', '"\\"0.075e1\\""', '"\\".075e1\\""', '"\\"75e-2\\""', '"\\"28\\""', '"\\"4000000024u\\""', '"\\"2000000022l\\""', '"\\"4000000000ul\\""', '"\\"9000000000LL\\""', '"\\"900000000001ull\\""', '"\\"024\\""', '"\\"04000000024u\\""', '"\\"02000000022l\\""', '"\\"04000000000UL\\""', '"\\"044000000000000ll\\""', '"\\"044400000000000001Ull\\""', '"\\"0x2a\\""', '"\\"0XA0000024u\\""', '"\\"0x20000022l\\""', '"\\"0XA0000021uL\\""', '"\\"0x8a000000000000ll\\""', '"\\"0x8A40000000000010uLL\\""', '\'"a"\'', '\'"string"\'', '\'"str', 'ing\\\\t"\'', '\'"string\\\\"\'', '\'"stri\\\\"s"\'', '\'\\"st', '\\\\', '\\"', 'ri\\\\"s\\"\'', '"\\"valid??@123\\""', '\'\\"valisd@@@/.33\\\\{1!@#$%\\"\'\'\\"+\\"\'', '\'\\"-\\"\'', '\'\\"(\\"\'', '\'\\")\\"\'', '\'\\"or\\"\'', '\'\\"and\\"\'', '\'\\"*\\"\'', '\'\\"/\\"\'', '\'\\"%\\"\'', '"\\\'2\\\'"', '"\\\'!\\\'"', '"\\"&\\""', '"\\\'\\n\\\'"', '"\\\'\\?\\\'"', '"\\\'\\\\\\\'"', '"\\\'\\f\\\'"', '"\\\'\\XN\\\'"', '"\\\'\\\'"', '"\\\'n\\\'"', '\'\\\'x\\"\'', '"a\\\'c\\\'"', '""', '"15.75"', '"1.575E1"', '"1575e-2"', '"-2.5e-3"', '"25E-4"', '"10.0L"', '"10.0F"', '".0075e2"', '"0.075e1"', '".075e1"', '"75e-2"', '"15.L75L"', '"1.57.5E1"', '"157.5e-+"', '"+2.5e-3"', '"25.L-4"', '"10.0LF"', '"1x0.0F"', '".0075ef2"', '"0.075ee1"', '".075e1f"', '"75e--2"', '"28"', '"4000000024u"', '"2000000022l"', '"4000000000ul"', '"9000000000LL"', '"900000000001ull"', '"024"', '"04000000024u"', '"02000000022l"', '"04000000000UL"', '"044000000000000ll"', '"044400000000000001Ull"', '"0x2a"', '"0XA0000024u"', '"0x20000022l"', '"0XA0000021uL"', '"0x8a000000000000ll"', '"0x8A40000000000010uLL"', "'28'", "'4000000024ulll'", "'2000000022lll'", "'4000000000uul'", "'9000000000LLL'", "'900000000001ulll'", "'024'", "'04000000024uu'", "'02000000022ll'", "'04000000000ULL'", "'044000000000000uull'", "'044400000000000001Ulll'", "'0x2a'", "'0XA0000024uu'", "'0x20000022ll''0XA0000021uLLL''0x8a000000000000lll''0x8A40000000000010uLLL'", '\'"a"\'', '\'"string"\'', '\'"str', 'ing\\\\t"\'', '\'"string\\\\"\'', '\'"stri\\\\"s"\'', '\'"st', '\\\\', '\\"', 'ri\\\\"s"\'', '"valid??@123"', '\'"valisd@@@/.[[33\\\\{1!@#$%"\'', "'+'", "'-'", "'('", "')'", "'or'", "'and'", "'*'", "'/'", "'%'", "'lk'", "'!'", "'nand'", "'xor'", "'ur", "mom'", "'*='", "'=='", "'()'", "'[]'", "'@plc'", "'$nowe_245'", "'%wbnod20983'"]
+'\"nai\\ow\"'
+"
+n
+a
+i
+\
+o
+
+
+'\"0x82n3\"'
+TOKEN FOUND : '\"0x82n3\"' is: JavaString JavaString
+"
+0
+x
+8
+2
+n
+3
+"
+TOKEN FOUND : '\"0x82n3\"' is: cChar cChar
+
+
+'\"13.4e12\"'
+TOKEN FOUND : '\"13.4e12\"' is: JavaString JavaString
+"
+1
+3
+.
+4
+e
+1
+2
+"
+TOKEN FOUND : '\"13.4e12\"' is: cChar cChar
+
+
+'"nai\\ow"'
+"
+n
+a
+i
+\
+o
+
+
+'\"0x82n3\"'
+TOKEN FOUND : '\"0x82n3\"' is: JavaString JavaString
+"
+0
+x
+8
+2
+n
+3
+"
+TOKEN FOUND : '\"0x82n3\"' is: cChar cChar
+
+
+'\"13.4e12\"'
+TOKEN FOUND : '\"13.4e12\"' is: JavaString JavaString
+"
+1
+3
+.
+4
+e
+1
+2
+"
+TOKEN FOUND : '\"13.4e12\"' is: cChar cChar
+
+
+'"@fuckplc"'
+TOKEN FOUND : '"@fuckplc"' is: JavaString JavaString
+"
+@
+f
+u
+c
+k
+p
+l
+c
+"
+TOKEN FOUND : '"@fuckplc"' is: cChar cChar
+
+
+"\'2\'"
+'
+2
+'
+TOKEN FOUND : "\'2\'" is: cChar cChar
+
+
+"\'!\'"
+'
+!
+'
+TOKEN FOUND : "\'!\'" is: cChar cChar
+
+
+"\"&\""
+TOKEN FOUND : "\"&\"" is: JavaString JavaString
+"
+&
+"
+TOKEN FOUND : "\"&\"" is: cChar cChar
+
+
+"\"\n\""
+"
+
+
+
+
+"\'\?\'"
+'
+\
+?
+'
+TOKEN FOUND : "\'\?\'" is: cChar cChar
+
+
+"\'\\\'"
+'
+\
+'
+TOKEN FOUND : "\'\\\'" is: cChar cChar
+
+
+"\'\f\'"
+'
+
+
+
+"\'\XN\'"
+'
+\
+X
+N
+'
+TOKEN FOUND : "\'\XN\'" is: cChar cChar
+
+
+"\'\'"
+'
+'
+TOKEN FOUND : "\'\'" is: cChar cChar
+
+
+"\'n\'"
+'
+n
+'
+TOKEN FOUND : "\'n\'" is: cChar cChar
+
+
+"\"15.75\""
+TOKEN FOUND : "\"15.75\"" is: JavaString JavaString
+"
+1
+5
+.
+7
+5
+"
+TOKEN FOUND : "\"15.75\"" is: cChar cChar
+
+
+"\"1.575E1\""
+TOKEN FOUND : "\"1.575E1\"" is: JavaString JavaString
+"
+1
+.
+5
+7
+5
+E
+1
+"
+TOKEN FOUND : "\"1.575E1\"" is: cChar cChar
+
+
+"\"1575e-2\""
+TOKEN FOUND : "\"1575e-2\"" is: JavaString JavaString
+"
+1
+5
+7
+5
+e
+-
+2
+"
+TOKEN FOUND : "\"1575e-2\"" is: cChar cChar
+
+
+"\"-2.5e-3\""
+TOKEN FOUND : "\"-2.5e-3\"" is: JavaString JavaString
+"
+-
+2
+.
+5
+e
+-
+3
+"
+TOKEN FOUND : "\"-2.5e-3\"" is: cChar cChar
+
+
+"\"25E-4\""
+TOKEN FOUND : "\"25E-4\"" is: JavaString JavaString
+"
+2
+5
+E
+-
+4
+"
+TOKEN FOUND : "\"25E-4\"" is: cChar cChar
+
+
+"\"10.0L\""
+TOKEN FOUND : "\"10.0L\"" is: JavaString JavaString
+"
+1
+0
+.
+0
+L
+"
+TOKEN FOUND : "\"10.0L\"" is: cChar cChar
+
+
+"\"10.0F\""
+TOKEN FOUND : "\"10.0F\"" is: JavaString JavaString
+"
+1
+0
+.
+0
+F
+"
+TOKEN FOUND : "\"10.0F\"" is: cChar cChar
+
+
+"\".0075e2\""
+TOKEN FOUND : "\".0075e2\"" is: JavaString JavaString
+"
+.
+0
+0
+7
+5
+e
+2
+"
+TOKEN FOUND : "\".0075e2\"" is: cChar cChar
+
+
+"\"0.075e1\""
+TOKEN FOUND : "\"0.075e1\"" is: JavaString JavaString
+"
+0
+.
+0
+7
+5
+e
+1
+"
+TOKEN FOUND : "\"0.075e1\"" is: cChar cChar
+
+
+"\".075e1\""
+TOKEN FOUND : "\".075e1\"" is: JavaString JavaString
+"
+.
+0
+7
+5
+e
+1
+"
+TOKEN FOUND : "\".075e1\"" is: cChar cChar
+
+
+"\"75e-2\""
+TOKEN FOUND : "\"75e-2\"" is: JavaString JavaString
+"
+7
+5
+e
+-
+2
+"
+TOKEN FOUND : "\"75e-2\"" is: cChar cChar
+
+
+"\"28\""
+TOKEN FOUND : "\"28\"" is: JavaString JavaString
+"
+2
+8
+"
+TOKEN FOUND : "\"28\"" is: cChar cChar
+
+
+"\"4000000024u\""
+TOKEN FOUND : "\"4000000024u\"" is: JavaString JavaString
+"
+4
+0
+0
+0
+0
+0
+0
+0
+2
+4
+u
+"
+TOKEN FOUND : "\"4000000024u\"" is: cChar cChar
+
+
+"\"2000000022l\""
+TOKEN FOUND : "\"2000000022l\"" is: JavaString JavaString
+"
+2
+0
+0
+0
+0
+0
+0
+0
+2
+2
+l
+"
+TOKEN FOUND : "\"2000000022l\"" is: cChar cChar
+
+
+"\"4000000000ul\""
+TOKEN FOUND : "\"4000000000ul\"" is: JavaString JavaString
+"
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+u
+l
+"
+TOKEN FOUND : "\"4000000000ul\"" is: cChar cChar
+
+
+"\"9000000000LL\""
+TOKEN FOUND : "\"9000000000LL\"" is: JavaString JavaString
+"
+9
+0
+0
+0
+0
+0
+0
+0
+0
+0
+L
+L
+"
+TOKEN FOUND : "\"9000000000LL\"" is: cChar cChar
+
+
+"\"900000000001ull\""
+TOKEN FOUND : "\"900000000001ull\"" is: JavaString JavaString
+"
+9
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+u
+l
+l
+"
+TOKEN FOUND : "\"900000000001ull\"" is: cChar cChar
+
+
+"\"024\""
+TOKEN FOUND : "\"024\"" is: JavaString JavaString
+"
+0
+2
+4
+"
+TOKEN FOUND : "\"024\"" is: cChar cChar
+
+
+"\"04000000024u\""
+TOKEN FOUND : "\"04000000024u\"" is: JavaString JavaString
+"
+0
+4
+0
+0
+0
+0
+0
+0
+0
+2
+4
+u
+"
+TOKEN FOUND : "\"04000000024u\"" is: cChar cChar
+
+
+"\"02000000022l\""
+TOKEN FOUND : "\"02000000022l\"" is: JavaString JavaString
+"
+0
+2
+0
+0
+0
+0
+0
+0
+0
+2
+2
+l
+"
+TOKEN FOUND : "\"02000000022l\"" is: cChar cChar
+
+
+"\"04000000000UL\""
+TOKEN FOUND : "\"04000000000UL\"" is: JavaString JavaString
+"
+0
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+U
+L
+"
+TOKEN FOUND : "\"04000000000UL\"" is: cChar cChar
+
+
+"\"044000000000000ll\""
+TOKEN FOUND : "\"044000000000000ll\"" is: JavaString JavaString
+"
+0
+4
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+l
+l
+"
+TOKEN FOUND : "\"044000000000000ll\"" is: cChar cChar
+
+
+"\"044400000000000001Ull\""
+TOKEN FOUND : "\"044400000000000001Ull\"" is: JavaString JavaString
+"
+0
+4
+4
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+U
+l
+l
+"
+TOKEN FOUND : "\"044400000000000001Ull\"" is: cChar cChar
+
+
+"\"0x2a\""
+TOKEN FOUND : "\"0x2a\"" is: JavaString JavaString
+"
+0
+x
+2
+a
+"
+TOKEN FOUND : "\"0x2a\"" is: cChar cChar
+
+
+"\"0XA0000024u\""
+TOKEN FOUND : "\"0XA0000024u\"" is: JavaString JavaString
+"
+0
+X
+A
+0
+0
+0
+0
+0
+2
+4
+u
+"
+TOKEN FOUND : "\"0XA0000024u\"" is: cChar cChar
+
+
+"\"0x20000022l\""
+TOKEN FOUND : "\"0x20000022l\"" is: JavaString JavaString
+"
+0
+x
+2
+0
+0
+0
+0
+0
+2
+2
+l
+"
+TOKEN FOUND : "\"0x20000022l\"" is: cChar cChar
+
+
+"\"0XA0000021uL\""
+TOKEN FOUND : "\"0XA0000021uL\"" is: JavaString JavaString
+"
+0
+X
+A
+0
+0
+0
+0
+0
+2
+1
+u
+L
+"
+TOKEN FOUND : "\"0XA0000021uL\"" is: cChar cChar
+
+
+"\"0x8a000000000000ll\""
+TOKEN FOUND : "\"0x8a000000000000ll\"" is: JavaString JavaString
+"
+0
+x
+8
+a
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+l
+l
+"
+TOKEN FOUND : "\"0x8a000000000000ll\"" is: cChar cChar
+
+
+"\"0x8A40000000000010uLL\""
+TOKEN FOUND : "\"0x8A40000000000010uLL\"" is: JavaString JavaString
+"
+0
+x
+8
+A
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+u
+L
+L
+"
+TOKEN FOUND : "\"0x8A40000000000010uLL\"" is: cChar cChar
+
+
+'"a"'
+TOKEN FOUND : '"a"' is: JavaString JavaString
+"
+a
+"
+TOKEN FOUND : '"a"' is: cChar cChar
+
+
+'"string"'
+TOKEN FOUND : '"string"' is: JavaString JavaString
+"
+s
+t
+r
+i
+n
+g
+"
+TOKEN FOUND : '"string"' is: cChar cChar
+
+
+'"str
+
+
+ing\\t"'
+
+
+'"string\\"'
+TOKEN FOUND : '"string\\"' is: JavaString JavaString
+"
+s
+t
+r
+i
+n
+g
+\
+"
+TOKEN FOUND : '"string\\"' is: cChar cChar
+
+
+'"stri\\"s"'
+"
+s
+t
+r
+i
+\
+"
+s
+
+
+'\"st
+
+
+\\
+
+
+\"
+
+
+ri\\"s\"'
+
+
+"\"valid??@123\""
+TOKEN FOUND : "\"valid??@123\"" is: JavaString JavaString
+"
+v
+a
+l
+i
+d
+?
+?
+@
+1
+2
+3
+"
+TOKEN FOUND : "\"valid??@123\"" is: cChar cChar
+
+
+'\"valisd@@@/.33\\{1!@#$%\"''\"+\"'
+"
+v
+a
+l
+i
+s
+d
+@
+@
+@
+/
+.
+3
+3
+\
+{
+
+
+'\"-\"'
+TOKEN FOUND : '\"-\"' is: JavaString JavaString
+"
+-
+"
+TOKEN FOUND : '\"-\"' is: cChar cChar
+
+
+'\"(\"'
+TOKEN FOUND : '\"(\"' is: JavaString JavaString
+"
+(
+"
+TOKEN FOUND : '\"(\"' is: cChar cChar
+
+
+'\")\"'
+TOKEN FOUND : '\")\"' is: JavaString JavaString
+"
+)
+"
+TOKEN FOUND : '\")\"' is: cChar cChar
+
+
+'\"or\"'
+TOKEN FOUND : '\"or\"' is: JavaString JavaString
+"
+o
+r
+"
+TOKEN FOUND : '\"or\"' is: cChar cChar
+
+
+'\"and\"'
+TOKEN FOUND : '\"and\"' is: JavaString JavaString
+"
+a
+n
+d
+"
+TOKEN FOUND : '\"and\"' is: cChar cChar
+
+
+'\"*\"'
+TOKEN FOUND : '\"*\"' is: JavaString JavaString
+"
+*
+"
+TOKEN FOUND : '\"*\"' is: cChar cChar
+
+
+'\"/\"'
+TOKEN FOUND : '\"/\"' is: JavaString JavaString
+"
+/
+"
+TOKEN FOUND : '\"/\"' is: cChar cChar
+
+
+'\"%\"'
+TOKEN FOUND : '\"%\"' is: JavaString JavaString
+"
+%
+"
+TOKEN FOUND : '\"%\"' is: cChar cChar
+
+
+"\'2\'"
+'
+2
+'
+TOKEN FOUND : "\'2\'" is: cChar cChar
+
+
+"\'!\'"
+'
+!
+'
+TOKEN FOUND : "\'!\'" is: cChar cChar
+
+
+"\"&\""
+TOKEN FOUND : "\"&\"" is: JavaString JavaString
+"
+&
+"
+TOKEN FOUND : "\"&\"" is: cChar cChar
+
+
+"\'\n\'"
+'
+
+
+
+
+"\'\?\'"
+'
+\
+?
+'
+TOKEN FOUND : "\'\?\'" is: cChar cChar
+
+
+"\'\\\'"
+'
+\
+'
+TOKEN FOUND : "\'\\\'" is: cChar cChar
+
+
+"\'\f\'"
+'
+
+
+
+"\'\XN\'"
+'
+\
+X
+N
+'
+TOKEN FOUND : "\'\XN\'" is: cChar cChar
+
+
+"\'\'"
+'
+'
+TOKEN FOUND : "\'\'" is: cChar cChar
+
+
+"\'n\'"
+'
+n
+'
+TOKEN FOUND : "\'n\'" is: cChar cChar
+
+
+'\'x\"'
+'
+x
+"
+
+
+"a\'c\'"
+is Decimal
+a
+
+
+""
+TOKEN FOUND : "" is: Perl Perl
+TOKEN FOUND : "" is: cInt cInt
+TOKEN FOUND : "" is: cChar cChar
+TOKEN FOUND : "" is: cFloat cFloat
+
+
+"15.75"
+is Decimal
+1
+TOKEN FOUND : "15.75" is: cFloat cFloat
+
+
+"1.575E1"
+is Decimal
+1
+TOKEN FOUND : "1.575E1" is: cFloat cFloat
+
+
+"1575e-2"
+is Decimal
+1
+TOKEN FOUND : "1575e-2" is: cFloat cFloat
+
+
+"-2.5e-3"
+-
+TOKEN FOUND : "-2.5e-3" is: cFloat cFloat
+
+
+"25E-4"
+is Decimal
+2
+TOKEN FOUND : "25E-4" is: cFloat cFloat
+
+
+"10.0L"
+is Decimal
+1
+TOKEN FOUND : "10.0L" is: cFloat cFloat
+
+
+"10.0F"
+is Decimal
+1
+TOKEN FOUND : "10.0F" is: cFloat cFloat
+
+
+".0075e2"
+.
+TOKEN FOUND : ".0075e2" is: cFloat cFloat
+
+
+"0.075e1"
+0
+TOKEN FOUND : "0.075e1" is: cFloat cFloat
+
+
+".075e1"
+.
+TOKEN FOUND : ".075e1" is: cFloat cFloat
+
+
+"75e-2"
+is Decimal
+7
+TOKEN FOUND : "75e-2" is: cFloat cFloat
+
+
+"15.L75L"
+is Decimal
+1
+
+
+"1.57.5E1"
+is Decimal
+1
+
+
+"157.5e-+"
+is Decimal
+1
+
+
+"+2.5e-3"
++
+
+
+"25.L-4"
+is Decimal
+2
+
+
+"10.0LF"
+is Decimal
+1
+
+
+"1x0.0F"
+is Decimal
+1
+
+
+".0075ef2"
+.
+
+
+"0.075ee1"
+0
+
+
+".075e1f"
+.
+
+
+"75e--2"
+is Decimal
+7
+
+
+"28"
+is Decimal
+TOKEN FOUND : "28" is: cInt cInt
+2
+TOKEN FOUND : "28" is: cFloat cFloat
+
+
+"4000000024u"
+is Decimal
+TOKEN FOUND : "4000000024u" is: cInt cInt
+4
+
+
+"2000000022l"
+is Decimal
+TOKEN FOUND : "2000000022l" is: cInt cInt
+2
+TOKEN FOUND : "2000000022l" is: cFloat cFloat
+
+
+"4000000000ul"
+is Decimal
+0 1
+TOKEN FOUND : "4000000000ul" is: cInt cInt
+4
+
+
+"9000000000LL"
+is Decimal
+1 0
+TOKEN FOUND : "9000000000LL" is: cInt cInt
+9
+
+
+"900000000001ull"
+is Decimal
+0 1
+1 1
+TOKEN FOUND : "900000000001ull" is: cInt cInt
+9
+
+
+"024"
+is Octal
+TOKEN FOUND : "024" is: cInt cInt
+0
+TOKEN FOUND : "024" is: cFloat cFloat
+
+
+"04000000024u"
+is Octal
+TOKEN FOUND : "04000000024u" is: cInt cInt
+0
+
+
+"02000000022l"
+is Octal
+TOKEN FOUND : "02000000022l" is: cInt cInt
+0
+TOKEN FOUND : "02000000022l" is: cFloat cFloat
+
+
+"04000000000UL"
+is Octal
+TOKEN FOUND : "04000000000UL" is: cInt cInt
+0
+
+
+"044000000000000ll"
+is Octal
+TOKEN FOUND : "044000000000000ll" is: cInt cInt
+0
+
+
+"044400000000000001Ull"
+is Octal
+TOKEN FOUND : "044400000000000001Ull" is: cInt cInt
+0
+
+
+"0x2a"
+is Hex
+TOKEN FOUND : "0x2a" is: cInt cInt
+0
+
+
+"0XA0000024u"
+is Hex
+TOKEN FOUND : "0XA0000024u" is: cInt cInt
+0
+
+
+"0x20000022l"
+is Hex
+TOKEN FOUND : "0x20000022l" is: cInt cInt
+0
+
+
+"0XA0000021uL"
+is Hex
+TOKEN FOUND : "0XA0000021uL" is: cInt cInt
+0
+
+
+"0x8a000000000000ll"
+is Hex
+TOKEN FOUND : "0x8a000000000000ll" is: cInt cInt
+0
+
+
+"0x8A40000000000010uLL"
+is Hex
+TOKEN FOUND : "0x8A40000000000010uLL" is: cInt cInt
+0
+
+
+'28'
+is Decimal
+TOKEN FOUND : '28' is: cInt cInt
+2
+TOKEN FOUND : '28' is: cFloat cFloat
+
+
+'4000000024ulll'
+is Decimal
+0 1
+1 1
+2 1
+3 1
+4
+
+
+'2000000022lll'
+is Decimal
+1 0
+2 0
+3 0
+2
+
+
+'4000000000uul'
+is Decimal
+0 1
+4
+
+
+'9000000000LLL'
+is Decimal
+1 0
+2 0
+3 0
+9
+
+
+'900000000001ulll'
+is Decimal
+0 1
+1 1
+2 1
+3 1
+9
+
+
+'024'
+is Octal
+TOKEN FOUND : '024' is: cInt cInt
+0
+TOKEN FOUND : '024' is: cFloat cFloat
+
+
+'04000000024uu'
+is Octal
+0
+
+
+'02000000022ll'
+is Octal
+TOKEN FOUND : '02000000022ll' is: cInt cInt
+0
+
+
+'04000000000ULL'
+is Octal
+0
+
+
+'044000000000000uull'
+is Octal
+0
+
+
+'044400000000000001Ulll'
+is Octal
+3 1
+0
+
+
+'0x2a'
+is Hex
+TOKEN FOUND : '0x2a' is: cInt cInt
+0
+
+
+'0XA0000024uu'
+is Hex
+0
+
+
+'0x20000022ll''0XA0000021uLLL''0x8a000000000000lll''0x8A40000000000010uLLL'
+is Hex
+0
+
+
+'"a"'
+TOKEN FOUND : '"a"' is: JavaString JavaString
+"
+a
+"
+TOKEN FOUND : '"a"' is: cChar cChar
+
+
+'"string"'
+TOKEN FOUND : '"string"' is: JavaString JavaString
+"
+s
+t
+r
+i
+n
+g
+"
+TOKEN FOUND : '"string"' is: cChar cChar
+
+
+'"str
+
+
+ing\\t"'
+
+
+'"string\\"'
+TOKEN FOUND : '"string\\"' is: JavaString JavaString
+"
+s
+t
+r
+i
+n
+g
+\
+"
+TOKEN FOUND : '"string\\"' is: cChar cChar
+
+
+'"stri\\"s"'
+"
+s
+t
+r
+i
+\
+"
+s
+
+
+'"st
+
+
+\\
+
+
+\"
+
+
+ri\\"s"'
+
+
+"valid??@123"
+v
+
+
+'"valisd@@@/.[[33\\{1!@#$%"'
+"
+v
+a
+l
+i
+s
+d
+@
+@
+@
+/
+.
+[
+[
+3
+3
+\
+{
+
+
+'+'
++
+TOKEN FOUND : '+' is: Ops Ops
+
+
+'-'
+-
+TOKEN FOUND : '-' is: cFloat cFloat
+TOKEN FOUND : '-' is: Ops Ops
+
+
+'('
+(
+TOKEN FOUND : '(' is: Ops Ops
+
+
+')'
+)
+TOKEN FOUND : ')' is: Ops Ops
+
+
+'or'
+o
+TOKEN FOUND : 'or' is: Ops Ops
+
+
+'and'
+is Decimal
+a
+TOKEN FOUND : 'and' is: Ops Ops
+
+
+'*'
+*
+TOKEN FOUND : '*' is: Ops Ops
+
+
+'/'
+/
+TOKEN FOUND : '/' is: Ops Ops
+
+
+'%'
+TOKEN FOUND : '%' is: Perl Perl
+%
+TOKEN FOUND : '%' is: Ops Ops
+
+
+'lk'
+is Decimal
+l
+
+
+'!'
+!
+TOKEN FOUND : '!' is: Ops Ops
+
+
+'nand'
+n
+
+
+'xor'
+is Decimal
+x
+
+
+'ur
+
+
+mom'
+
+
+'*='
+*
+
+
+'=='
+=
+
+
+'()'
+(
+
+
+'[]'
+[
+
+
+'@plc'
+TOKEN FOUND : '@plc' is: Perl Perl
+@
+
+
+'$nowe_245'
+TOKEN FOUND : '$nowe_245' is: Perl Perl
+$
+
+
+'%wbnod20983'
+TOKEN FOUND : '%wbnod20983' is: Perl Perl
+%
+
+
+bash-3.2$ exit
+exit
+
+Script done on Sun Nov 15 20:39:06 2020
