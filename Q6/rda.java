@@ -92,14 +92,6 @@ public static boolean ifstmt(String s){
         }else{ return false; }
     }else{ return false; }
 }
-
-
-/*
-ASSIGNMENT STATEMENT EBNF:
-
-EBNF:
-<assignstmt> -> <var> “=” [ <var>{ “[” <mem> “]” } | <const> | <func> | “null”]
-*/
 public static boolean check_for_else_or_elseif_stmt(String s){
     x = getNextToken(s);
     if(x == else_stmt){
@@ -125,14 +117,10 @@ public static boolean check_for_else_or_elseif_stmt(String s){
 
 
 /*
-MATH STATEMENT EBNF:
+ASSIGNMENT STATEMENT EBNF:
 
 EBNF:
-<stmt> ->  <var> <op> [ <stmt> | <var> ] 
-<op> -> [ ‘+’ | ‘-’ | ‘*’ |  ‘/’ | ‘%’ ]
-<var> -> [ <letter> | <num> ] 
-<letter> -> [ A-Z | a-z ] { <let> }{ <num> } 
-<num> -> [ 0-9 ] { <num> }
+<assignstmt> -> <var> “=” [ <var>{ “[” <mem> “]” } | <const> | <func> | “null”]
 */
 public static boolean assignstmt(String s){
     x = getNextToken(s);
@@ -147,6 +135,17 @@ public static boolean assignstmt(String s){
     }else { return false; }
 }
 
+
+/*
+MATH STATEMENT EBNF:
+
+EBNF:
+<stmt> ->  <var> <op> [ <stmt> | <var> ] 
+<op> -> [ ‘+’ | ‘-’ | ‘*’ |  ‘/’ | ‘%’ ]
+<var> -> [ <letter> | <num> ] 
+<letter> -> [ A-Z | a-z ] { <let> }{ <num> } 
+<num> -> [ 0-9 ] { <num> }
+*/
 //assume getNextToken pops string stack based on spaces.
 public static boolean mathexpr(String s){
     x = getNextToken(s);
